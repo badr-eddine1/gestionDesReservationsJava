@@ -21,6 +21,15 @@ public class Client {
 	public void setId(int id) {
 		this.id = id;
 	}
+
+	public Client(int id, String nom, String prenom, String telephone, String email) {
+		this.id = id;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.telephone = telephone;
+		this.email = email;
+	}
+
 	public String getNom() {
 		return nom;
 	}
