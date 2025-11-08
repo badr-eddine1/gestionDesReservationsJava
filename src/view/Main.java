@@ -28,7 +28,7 @@ public class Main {
         System.out.println(cat.findByid(1));
         cat.create(new Categorie("aa11","111111"));
         ch.create(new Chambre("066666666666",new Categorie("aa11","111111")));
-
+        Reservation R =new Reservation("01/01/01","01/01/01",new Chambre("098765123456",c),);
 
     }
 }
